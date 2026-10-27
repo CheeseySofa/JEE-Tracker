@@ -5,12 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>JEE 極道 Tracker</title>
 <style>
-@font-face{
-  font-family:'Edo SZ';
-  src: url('edosz.ttf') format('truetype'),
-       local('Edo SZ'), local('EdoSZ');
-  font-display:swap;
-}
+@font-face{font-family:'Edo SZ';src:local('Edo SZ'),local('EdoSZ'),local('Edo SZ Regular'),local('edosz');font-display:swap}
+:root{--gold:#f2c81c;--gold-hi:#ffe45a;--gold-dim:#c9a53c;--orange:#ff8f2e;--orange-deep:#e5670f;--ok:#5fd08a;--text:#e8eff8;--muted:#9db0c6;--line:rgba(255,255,255,.1);--edo:'Edo SZ','Impact','Arial Black',sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{margin:0;padding:0;box-sizing:border-box}
 html{scroll-padding-top:90px}
 body{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;background:#000;color:var(--text);min-height:100vh;padding:92px 0 40px}
 body::before{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 30% 30%,rgba(255,215,0,.08),transparent 55%),radial-gradient(ellipse at 50% 120%,rgba(170,20,24,.3),transparent 60%),radial-gradient(ellipse at 50% 46%,transparent 45%,rgba(0,0,0,.7) 100%)}
